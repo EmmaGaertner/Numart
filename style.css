@@ -1,0 +1,2007 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	width:1300px;
+	display:block;
+	margin:auto;
+}
+
+.mask1 {
+  width: 1300px;
+  height: 250px;
+  background-color: #ffffff;
+  display:grid;
+  grid-template-columns:486.9px 734.1px 79px;
+  grid-template-rows:218px 22px 10px;
+  grid-template-areas:"logo toile social"
+						"4 toile 6"
+						"7 toile 9"
+  border:solid 1px red;
+  z-index:0;
+}
+
+
+.logo {
+	grid-area:logo;
+  width: 189px;
+  height: 208px;
+  object-fit: contain;
+}
+
+.imageFondHeader {
+	grid-area:toile;
+  width: 734.1px;
+  height: 250px;
+  object-fit: contain;
+  opacity: 0.5;
+  margin-left:-50px;
+}
+
+
+
+.rsn{
+	grid-area:social;
+}
+
+.polygone{
+	display:grid;
+	grid-template-rows:10px 29px 10px 29px 10px 29px 10px 29px
+	}
+
+.facebook {
+  width: 15px;
+  height: 15px;
+  object-fit: contain;
+  display:block;
+  margin:auto;
+}
+
+.Polygon-1 {
+  position: relative;
+  width: 23px; 
+  height: 13.86px;
+  background-color: none;
+  margin: 6.93px 0;
+  border-left: solid 1px #1a2052;
+  border-right: solid 1px #1a2052;
+}
+
+.Polygon-1:before,
+.Polygon-1:after {
+ content: "";
+  position: absolute;
+  z-index: 1;
+  width: 16.97px;
+  height: 16.97px;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background-color: inherit;
+  left: 2.5147px;
+}
+
+.Polygon-1:before {
+  top: -8.4853px;
+  border-top: solid 1px #1a2052;
+  border-right: solid 1px #1a2052;
+}
+.Polygon-1:after {
+  bottom: -8.4853px;
+  border-bottom: solid 1px #1a2052;
+  border-left: solid 1px #1a2052;
+}
+
+
+.twitter {
+  width: 15px;
+  height: 15px;
+  object-fit: contain;
+  display:block;
+  margin:auto;
+}
+
+.Polygon-2 {
+  position: relative;
+  width: 23px; 
+  height: 13.86px;
+  background-color: none;
+  margin: 6.93px 0;
+  border-left: solid 1px #1a2052;
+  border-right: solid 1px #1a2052;
+}
+
+.Polygon-2:before,
+.Polygon-2:after {
+ content: "";
+  position: absolute;
+  z-index: 1;
+  width: 16.97px;
+  height: 16.97px;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background-color: inherit;
+  left: 2.5147px;
+}
+
+.Polygon-2:before {
+  top: -8.4853px;
+  border-top: solid 1px #1a2052;
+  border-right: solid 1px #1a2052;
+}
+.Polygon-2:after {
+  bottom: -8.4853px;
+  border-bottom: solid 1px #1a2052;
+  border-left: solid 1px #1a2052;
+}
+
+
+.filled {
+  width: 23px;
+  height: 23px;
+  object-fit: contain;
+  z-index:10;
+  position:relative;
+}
+
+.Polygon-3{
+  position: relative;
+  width: 24px; 
+  height: 13.86px;
+  margin: 6.93px 0;
+  background-color:#e78300;
+  background-image:url(img/filled.svg);
+  background-size: auto 27.7128px;
+  background-position: center;
+}
+
+.Polygon-3Top,
+.Polygon-3Bottom {
+  position: absolute;
+  z-index: 1;
+  width: 16.97px;
+  height: 16.97px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background: inherit;
+  left: 3.51px;
+}
+
+.Polygon-3Top:after,
+.Polygon-3Bottom:after {
+  content: "";
+  position: absolute;
+  width: 24.0000px;
+  height: 13.85640646055102px;
+  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-6.9282px);
+  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-6.9282px);
+  transform:          rotate(45deg) scaleY(1.7321) translateY(-6.9282px);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: inherit;
+}
+
+.Polygon-3Top {
+  top: -8.4853px;
+}
+
+.Polygon-3Top:after {
+  background-position: center top;
+}
+
+.Polygon-3Bottom {
+  bottom: -8.4853px;
+}
+
+.Polygon-3Bottom:after {
+  background-position: center bottom;
+}
+.Polygon-3:after {
+  content: "";
+  position: absolute;
+  top: 0.0000px;
+  left: 0;
+  width: 24.0000px;
+  height: 13.8564px;
+  z-index: 2;
+  background: inherit;
+}
+
+
+.instagram {
+  width: 15px;
+  height: 15px;
+  object-fit: contain;
+  display:block;
+  margin:auto;
+}
+
+.Polygon-4 {
+  position: relative;
+  width: 23px; 
+  height: 13.86px;
+  background-color: none;
+  margin: 6.93px 0;
+  border-left: solid 1px #1a2052;
+  border-right: solid 1px #1a2052;
+}
+
+.Polygon-4:before,
+.Polygon-4:after {
+ content: "";
+  position: absolute;
+  z-index: 1;
+  width: 16.97px;
+  height: 16.97px;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background-color: inherit;
+  left: 2.5147px;
+}
+
+.Polygon-4:before {
+  top: -8.4853px;
+  border-top: solid 1px #1a2052;
+  border-right: solid 1px #1a2052;
+}
+.Polygon-4:after {
+  bottom: -8.4853px;
+  border-bottom: solid 1px #1a2052;
+  border-left: solid 1px #1a2052;
+}
+
+
+
+
+.navigation{
+	display:grid;
+	grid-template-columns:122px 21px 122px 21px 122px 21px 122px 21px 122px;
+	grid-template-rows:22px 8px 2px;
+	grid-template-areas: "home . actualite . service . production . artlabs"
+						". . . . . . . . ."
+						"traitHome . traitActu . traitServices . traitProductions . traitArtlab";
+	align-items:center;
+	 position:absolute;
+	top:218px;
+}
+
+
+.home {
+	grid-area:home;
+  width: 122px;
+  height: 22px;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+ color: #1a2052;
+}
+
+.home:hover {
+	color: #e78300;
+}
+
+.Actualits {
+	grid-area:actualite;
+  width: 122px;
+  height: 22px;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1a2052;
+}
+
+.Actualits:hover {
+	color: #e78300;
+}
+
+.Services {
+	grid-area:service;
+  width: 122px;
+  height: 22px;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1a2052;
+}
+
+.Services:hover {
+	color: #e78300;
+}
+
+.Productions {
+	grid-area:production;
+  width: 122px;
+  height: 22px;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1a2052;
+}
+
+.Productions:hover {
+	color: #e78300;
+}
+
+.Artlab {
+	grid-area:artlabs;
+  width: 122px;
+  height: 22px;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1a2052;
+}
+
+.Artlab:hover {
+	color: #e78300;
+}
+
+.Line {
+	grid-area:traitHome;
+  width: 122px;
+  border: solid 2px #1a2052;
+}
+
+.Line:hover {
+	border: solid 5px #e78300;
+}
+
+.Line-2 {
+	grid-area:traitActu;
+  width: 122px;
+  border: solid 2px #1a2052;
+}
+
+.Line-2:hover{
+	border: solid 5px #e78300;
+	}
+	
+.Line-3 {
+	grid-area:traitServices;
+  width: 122px;
+  border: solid 2px #1a2052;
+}
+
+.Line-3:hover {
+	border: solid 5px #e78300;
+}
+
+.Line-4 {
+	grid-area:traitProductions;
+  width: 122px;
+  border: solid 2px #1a2052;
+}
+
+.Line-4:hover {
+	border: solid 5px #e78300;
+}
+
+.Line-5 {
+	grid-area:traitArtlab;
+  width: 122px;
+  border: solid 2px #1a2052;
+}
+
+.Line-5:hover {
+	border: solid 5px #e78300;
+}
+
+
+
+
+
+.contenu{
+	display:grid;
+	grid-template-columns:1300px;
+	grid-template-rows:600px 50px 665px 761px 755px 859px 1172px 285px;
+	grid-template-areas:"imageBleue"
+						"masque2"
+						"apercuServices"
+						"vision"
+						"actualites"
+						"artistique"
+						"artlab"
+						"pied";
+}
+
+
+.photoBleue {
+	grid-area:imageBleue;
+  width: 1300px;
+  height: 600px;
+  object-fit: contain;
+  position:relative;
+}
+
+
+.artInnovation {
+  width: 740px;
+  height: 75px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0 0 8px #1a2052;
+  position:absolute;
+  top:395px;
+  left:280px;
+}
+
+.artNumerique {
+  width: 740px;
+  height: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0 0 8px #1a2052;
+  position:absolute;
+  top:469px;
+  left:280px;
+}
+
+.mask2 {
+	grid-area:masque2;
+  width: 1300px;
+  height: 50px;
+  background-color: #ffffff;
+  position:relative;
+}
+
+.Imported-Layers-2 {
+  width: 734px;
+  height: 50px;
+  object-fit: contain;
+  /*transform: rotate(206deg);*/
+  opacity: 0.90;
+  border: solid 1px /*#e78300*/ transparent;
+}
+
+.decouverte {
+  width: 1300px;
+  height: 27px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  font-weight:500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1a2052;
+  position:absolute;
+  top:14px;
+  }
+  
+.numartLink{
+	color: #1a2052;
+}  
+  
+  
+  /* ------------------------------------------------------------------------ un apercu de nos services -------------------------------------------------*/
+.apercu{
+	grid-area:apercuServices;
+  width: 1300px;
+  height: 4197px;
+  background-color: #f5f5f5;
+}
+
+.part1{
+	display:grid;				
+	grid-template-columns:90px 57px 150px 58px 20px 58x 150px 57px 20px 58px 150px 57px 20px 58px 150px 57px 90px;	
+	grid-template-rows : 49px 36px 51px 174px 35px 30px 21px 105px 50px 30px 10px 24px 50px;	
+	grid-template-areas: /*49*/". . . . . . . . . . . . . . . . ."
+						/*36*/"titreApercu titreApercu titreApercu titreApercu titreApercu titreApercu titreApercu titreApercu titreApercu titreApercu titreApercu titreApercu titreApercu titreApercu titreApercu titreApercu titreApercu"
+						/*51*/". . . . . . . . . . . . . . . . ."
+						/*174*/". . logoLangage1 . . . logoLangage2 . . . logoLangage3 . . . logoLangage4 . ."
+						/*35*/". . . . . . . . . . . . . . . . ."
+						/*30*/". lang1 lang1 lang1 . lang2 lang2 lang2 . lang3 lang3 lang3 . lang4 lang4 lang4 ."
+						/*21*/". . . . . . . . . . . . . . . . ."
+						/*105*/". li1 li1 li1 . li2 li2 li2 . li3 li3 li3 . li4 li4 li4 ."
+						/*50*/". . . . . . . . . . . . . . . . ."
+						/*30*/". . . . . . . toile2 toile2 toile2 . . . . . . ."
+						/*10*/". . . . . . . . . . . . . . . . ."
+						/*24*/". . . . . numArtPlus numArtPlus numArtPlus numArtPlus numArtPlus numArtPlus numArtPlus . . . . ."
+						/*50*/". . . . . . . . . . . . . . . . .";
+}
+
+.apercuServices {
+	grid-area:titreApercu;
+  width: 740px;
+  height: 36px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #1a2052;
+  margin-left:280px;
+  margin-right:280px;
+}
+
+.Logo-service-1 {
+	grid-area:logoLangage1;
+  width: 150px;
+  height: 174px;
+  object-fit: contain;
+}
+
+.Logo-service-2 {
+	grid-area:logoLangage2;
+  width: 150px;
+  height: 174px;
+  object-fit: contain;
+}
+
+.Logo-service-3 {
+	grid-area:logoLangage3;
+  width: 150px;
+  height: 174px;
+  object-fit: contain;
+}
+
+.Logo-service-4 {
+	grid-area:logoLangage4;
+  width: 150px;
+  height: 174px;
+  object-fit: contain;
+}
+
+.langageService-1 {
+	grid-area:lang1;
+  width: 265px;
+  height: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 0.6px;
+  text-align: center;
+  color: #1a2052;
+}
+
+.langageService-1::first-letter{
+	text-transform:uppercase;
+}
+
+.langageService-2 {
+	grid-area:lang2;
+  width: 265px;
+  height: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 0.6px;
+  text-align: center;
+  color: #1a2052;
+}
+
+.langageService-2::first-letter{
+	text-transform:uppercase;
+}
+
+.langageService-3 {
+grid-area:lang3;
+  width: 265px;
+  height: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 0.6px;
+  text-align: center;
+  color: #1a2052;
+}
+
+.langageService-3::first-letter{
+	text-transform:uppercase;
+}
+
+.langageService-4 {
+	grid-area:lang4;
+  width: 265px;
+  height: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 0.6px;
+  text-align: center;
+  color: #1a2052;
+}
+
+.langageService-4::first-letter{
+	text-transform:uppercase;
+}
+
+.loremIpsum1 {
+	grid-area:li1;
+  width: 265px;
+  height: 105px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #212121;
+}
+
+.loremIpsum2 {
+	grid-area:li2;
+  width: 265px;
+  height: 105px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #212121;
+}
+
+.loremIpsum3{
+	grid-area:li3;
+  width: 265px;
+  height: 105px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #212121;
+}
+
+.loremIpsum4{
+	grid-area:li4;
+  width: 265px;
+  height: 105px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #212121;
+}
+
+.petiteToile {
+	grid-area:toile2;
+  width: 28px;
+  height: 30px;
+  object-fit: contain;
+  opacity:0.8;
+  display:block;
+  margin:auto;
+}
+
+.plusNumArt {
+	grid-area:numArtPlus;
+  width: 550.1px;
+  height: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1a2052;
+}
+
+
+/*--------------------------------------------------------------------------- notre vision, notre expertise ---------------------------------------------------------------------------*/
+
+.vision {
+	grid-area:vision ;
+  width: 1300px;
+  height: 761px;
+  background-color: #1a2052;
+ mix-blend-mode:multiply;
+ position:relative;
+ }
+
+ .part2{ 
+	display:grid;
+	grid-template-columns:183px 172px 100px 20px 100px 150px 105px 20px 105px 150px 195px;	
+	grid-template-rows:49px 36px 11px 50px 50px 174px 30px 30px 20px 147px 50px 30px 10px 24px 50px;
+	grid-template-areas:/*49*/ ". . . . . . . . . . ."
+						/*36*/ "titre titre titre titre titre titre titre titre titre titre titre"
+						/*11*/ ". . . . . . . . . . ."
+						/*50*/ "prod prod prod prod prod prod prod prod prod prod prod"
+						/*50*/". . . . . . . . . . ."
+						/*174*/". image1 . . . image2 . . . image3 ."
+						/*30*/". . . . . . . . . . ."
+						/*30*/"element1 element1 element1 . element2 element2 element2 .  element3 element3 element3"
+						/*20*/". . . . . . . . . . ."
+						/*147*/"li5 li5 li5 . li6 li6 li6 . li7 li7 li7"
+						/*50*/". . . . . . . . . . ."
+						/*30*/". . . . . toile3 . . . . ."
+						/*10*/". . . . . . . . . . ."
+						/*24*/". numart2 . . . . . . . . ."
+						/*50*/". . . . . . . . . . .";
+}
+
+.fondPart2{
+  width: 1300px;
+  height: 761px;
+  object-fit: contain;
+  opacity: 0.2;
+}
+
+
+.visionExpertise{
+	grid-area:titre;
+  width: 1120px;
+  height: 36px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #ffffff;
+  margin-left:92px;
+  z-index:200;
+}
+
+.producteurDistributeur{
+	grid-area:prod;
+	width: 590px;
+  height: 50px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  /*font-weight: 100;*/
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin-left:355px;
+  z-index:200;
+}
+
+.logoVision-1{
+	grid-area:image1;
+	z-index:200;
+  width: 172px;
+  height: 149px;
+  object-fit: contain;
+  }
+
+.logoVision-2{
+	grid-area:image2;
+	z-index:200;
+  width: 172px;
+  height: 149px;
+  object-fit: contain;
+}
+
+.logoVision-3{
+	grid-area:image3;
+	z-index:200;
+  width: 172px;
+  height: 149px;
+  object-fit: contain;
+}
+
+.langageVision-1 {
+	grid-area:element1;
+  width: 360px;
+  height: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #ffffff;
+  z-index:200;
+  margin-left:90px;
+}
+
+.langageVision-1::first-letter{
+	text-transform:uppercase;
+}
+
+.langageVision-2 {
+	grid-area:element2;
+  width: 360px;
+  height: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #ffffff;
+  z-index:200;
+}
+
+.langageVision-2::first-letter{
+	text-transform:uppercase;
+}
+
+.langageVision-3 {
+grid-area:element3;
+  width: 360px;
+  height: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #ffffff;
+  z-index:200;
+}
+
+.langageVision-3::first-letter{
+	text-transform:uppercase;
+}
+
+.loremIpsum5{
+	grid-area:li5;
+	width: 360px;
+  height: 147px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #f5f5f5;  
+  margin-left:90px;
+}
+
+.loremIpsum6{
+	grid-area:li6;
+	width: 360px;
+  height: 147px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #f5f5f5;  
+}
+
+.loremIpsum7{
+	grid-area:li7;
+	width: 360px;
+  height: 147px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #f5f5f5;  
+}
+
+.petiteToile2{
+	grid-area:toile3;
+  width: 28px;
+  height: 30px;
+  object-fit: contain;
+  display:block;
+  margin:auto;
+  z-index:200;
+}
+
+.plusNumArt2{
+	grid-area:numart2;
+	width: 550.1px;
+  height: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin-left:192px;
+}
+
+
+/*------------------------------------------------------------------------Actualites---------------------------------------------------------------------------*/
+
+.actualites {
+	grid-area:actualites;
+	width:1300px;
+	height:766px;
+	position:relative;
+}
+
+.part3{
+	display:grid;
+	grid-template-columns:90px 1100px 90px;
+	grid-template-rows:49px 36px 52px 453px 51px 30px 10px 24px 50px;
+	grid-template-areas:/*49*/". . ."
+						/*36*/". actus ."
+						/*52*/". . ."
+						/*453*/". actus2 ."
+						/*51*/". . ."
+						/*30*/". toile3 ."
+						/*10*/". . ."
+						/*24*/". numArtPlus3 ."
+						/*50*/". . .";
+}
+
+.titreActualites{
+	grid-area:actus;
+	width: 740px;
+  height: 36px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #1a2052;
+  text-transform:uppercase;
+  display:block;
+  margin:auto;
+}
+
+
+.subPart3{
+	grid-area:actus2;
+	width:1120px;
+	background-color:#ffffff;
+	display:grid;
+	grid-template-columns:10px 348px 22px 170px 20px 170px 20px 348px 12px;
+	grid-template-rows:11px 72px 1px 96px 10px 20px 12px 20px 11px 72px 1px 96px 10px 20px 12px;
+	grid-template-areas:/*11*/". . . imActu1 grisV imActu2 . . ."
+						/*72*/". titreTest1 . . . . . titreTest2 ."
+						/*1*/". . . . . . . . ."
+						/*96*/". li8 . . . . . li9 ."
+						/*10*/". . . . . . . . ."
+						/*20*/". art01 . . . . . art02 ."
+						/*12*/". . . . . . . . ."
+						/*20*/"grisH grisH grisH grisH grisH grisH grisH grisH grisH "
+						/*11*/". . . imActu4 grisV2 imActu3 . . ."
+						/*72*/". titreTest4 . . . . . titreTest3 ."
+						/*1*/". li11 . . . . . li10 ."
+						/*96*/". . . . . . . . ."
+						/*10*/". art04 . . . . . art03 ."
+						/*20*/". . . . . . . . ."
+						/*12*/". . . . . . . . .";
+						
+}
+
+.titre1{
+	grid-area:titreTest1;
+	width: 348px;
+  height: 72px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #1a2052;
+  background-color:#ffffff;
+  text-transform:uppercase;
+}
+
+.loremIpsum8{
+	grid-area:li8;
+	width: 348px;
+  height: 96px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #1a2052;
+}
+
+.redige01{
+	grid-area:art01;
+	 width: 360px;
+  height: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.54;
+  letter-spacing: normal;
+  color: #4a4a4a;
+}
+
+.textStyle1{
+	color: #1a2052;
+	font-size:13px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600;
+	}
+	
+.actu1{
+	grid-area:imActu1;
+	width: 170px;
+  height: 222px;
+  object-fit: contain;
+}
+	
+
+.fondGrisH{
+	grid-area:grisH;
+	width:1120px;
+	height:20px;
+	background-color: #f5f5f5;
+}
+
+.fondGrisV{
+	grid-area:grisV;
+	width:20px;
+	height:222px;
+	background-color: #f5f5f5;
+}
+
+.fondGrisV2{
+	grid-area:grisV2;
+	width:20px;
+	height:222px;
+	background-color: #f5f5f5;
+}
+
+.actu2{
+	grid-area:imActu2;
+	width: 170px;
+  height: 222px;
+  object-fit: contain;
+}
+.titre2{
+	grid-area:titreTest2;
+	width: 348px;
+  height: 72px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #1a2052;
+  background-color:#ffffff;
+  text-transform:uppercase;
+}
+
+.loremIpsum9{
+		grid-area:li9;
+	width: 348px;
+  height: 96px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #1a2052;
+}
+
+.redige02{
+	grid-area:art02;
+	 width: 360px;
+  height: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.54;
+  letter-spacing: normal;
+  color: #4a4a4a;
+}
+
+.actu3{
+	grid-area:imActu3;
+	width: 170px;
+  height: 222px;
+  object-fit: contain;
+}
+
+.titre3{
+	grid-area:titreTest3;
+	width: 348px;
+  height: 72px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #1a2052;
+  background-color:#ffffff;
+  text-transform:uppercase;
+}
+
+.loremIpsum10{
+		grid-area:li10;
+	width: 348px;
+  height: 96px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #1a2052;
+}
+
+.redige03{
+	grid-area:art03;
+	 width: 360px;
+  height: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.54;
+  letter-spacing: normal;
+  color: #4a4a4a;
+}
+
+
+.actu4{
+	grid-area:imActu4;
+	width: 170px;
+  height: 222px;
+  object-fit: contain;
+}
+
+.titre4{
+	grid-area:titreTest4;
+	width: 348px;
+  height: 72px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #1a2052;
+  background-color:#ffffff;
+  text-transform:uppercase;
+}
+
+.loremIpsum11{
+		grid-area:li11;
+	width: 348px;
+  height: 96px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #1a2052;
+}
+
+.redige04{
+	grid-area:art04;
+	 width: 360px;
+  height: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.54;
+  letter-spacing: normal;
+  color: #4a4a4a;
+}
+
+
+.petiteToile3 {
+	grid-area:toile3;
+  width: 28px;
+  height: 30px;
+  object-fit: contain;
+  opacity:0.8;
+  display:block;
+  margin:auto;
+}
+
+.plusNumArt3 {
+	grid-area:numArtPlus3;
+  width: 550.1px;
+  height: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1a2052;
+  display:block;
+  margin:auto;
+}
+
+
+/*--------------------------------------------------------------------------- Productions artistiques ---------------------------------------------------------------------------*/
+
+.artistique{
+  grid-area:artistique ;
+  width: 1300px;
+  height: 859px;
+  background-color: #1a2052;
+ position:relative;
+ }
+ 
+ .part4{
+	display:grid;
+	grid-template-columns:90px 550px 20px 550px 90px;
+	grid-template-rows:49px 36px 51px 24px 367px 29px 30px 13px 96px 50px 30px 10px 24px 50px;
+	grid-template-areas:/*49*/". . . . ."
+						/*36*/". pArt pArt pArt ."
+						/*51*/". . . . . "
+						/*24*/". im_pArt1 . im_pArt2 ."
+						/*367*/". . . . ."
+						/*29*/". . . . ."
+						/*30*/". ProdTitre1 . ProdTitre2 ."
+						/*13*/". . . . ."
+						/*96*/". prodText1 . prodText2."
+						/*50*/". . . . ."
+						/*30*/". . petiteToile4 . ."
+						/*10*/". . . . ."
+						/*24*/".  numArtPlus4 numArtPlus4 numArtPlus4 ."
+						/*50*/". . . . toileArt";
+}
+
+.prodArtistiques{
+	grid-area:pArt;
+	 width: 1120px;
+  height: 36px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #ffffff;
+  display:block;
+  margin:auto;
+}
+
+.cadre1{
+	grid-area:im_pArt1;
+	width: 550px;
+	height: 367px;
+	border: solid 5px #ffffff;
+	position:relative;
+}
+
+.triangle{
+	z-index:10;
+	position:absolute;
+}
+
+.textProdArt1{
+	width: 265px;
+  height: 14px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  /*font-weight: 100;
+  font-style: normal;
+  font-stretch: normal;*/
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: right;
+  color: #ffffff;
+  z-index:20;
+  position:absolute;
+  right:10px;
+}
+
+.imProdArt1{
+	position:absolute;
+	z-index:2;
+}
+
+
+.cadre2{
+	grid-area:im_pArt2;
+	width: 550px;
+	height: 367px;
+	border: solid 5px #ffffff;
+	position:relative;
+	z-index:30;
+	}
+
+.triangle2{
+	z-index:10;
+	position:absolute;
+	opacity:0.7;
+}
+
+.textProdArt2{
+	width: 265px;
+  height: 14px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  /*font-weight: 100;
+  font-style: normal;
+  font-stretch: normal;*/
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: right;
+  color: #ffffff;
+  z-index:20;
+  position:absolute;
+  right:10px;
+}
+
+.imProdArt2{
+	position:absolute;
+	z-index:2;
+}
+
+.titreProd1{
+	grid-area:ProdTitre1;
+	width: 550px;
+  height: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.textProd1{
+	grid-area:prodText1;
+	width: 550px;
+  height: 96px;
+ font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch:normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.titreProd2{
+	grid-area:ProdTitre2;
+	width: 550px;
+  height: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.textProd2{
+	grid-area:prodText2;
+	width: 550px;
+  height: 96px;
+ font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.toileArtistique{
+	grid-area:toileArt;
+	width: 482px;
+  height: 459.3px;
+  object-fit: contain;
+  transform: scaleX;
+  
+  opacity: 0.8;
+  z-index:20;
+  position:absolute;
+  bottom:-20px;
+  right:-20px;
+}
+
+.petiteToile4{
+	grid-area:petiteToile4;
+	width: 28px;
+  height: 30px;
+  object-fit: contain;
+  display:block;
+  margin:auto;
+}
+
+.plusNumArt4{
+	grid-area:numArtPlus4;
+  width: 550.1px;
+  height: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  display:block;
+  margin:auto;
+}
+
+
+/*-------------------------------------------------------------ARTLAB NUMART ---------------------------------------------------------*/
+
+.artlab{
+	grid-area:artlab;
+	width:1300px;
+	height:1170px;
+	position:relative;
+}
+
+.part5{
+	background-color:#ffffff;
+	display:grid;
+	grid-template-columns:185px 360px 117.3px 92.7px 360px 185px;
+	grid-template-rows:39px 36px 1px 600px 29px 30px 21px 240px 50px 30px 10px 24px 49.2px;
+	grid-template-areas:/*39*/". . . . . ."
+						/*36*/"alNumart alNumart alNumart alNumart alNumart ."
+						/*1*/". . . . . ."
+						/*600*/" photoBureau photoBureau photoBureau photoBureau photoBureau photoBureau"
+						/*29*/"toileArtlab . . . . ."
+						/*30*/". artlabTitre1 . . artlabTitre2 ."
+						/*21*/". . . . . ."
+						/*240*/". li12 . . li13 ."
+						/*50*/". . . . . ."
+						/*30*/". . toile5 toile5 . ."
+						/*10*/". . . . . ."
+						/*24*/". numArtPlus5 numArtPlus5 numArtPlus5 numArtPlus5 ."
+						/*49.2*/". . . . . .";
+}
+
+.artlabNumart{
+	grid-area:alNumart;
+  width: 740px;
+  height: 36px;
+ font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #1a2052;
+  display:block;
+  margin:auto;
+  z-index:20;
+}
+
+.photoPArt5{
+	position:relative;
+}
+
+.bureau{
+	grid-area:photoBureau;
+  width: 1300px;
+  height: 600px;
+  object-fit: contain;
+  z-index:5;
+clip-path: polygon(0 0, 100% 7%, 100% 100%, 0 93%);	
+}
+
+
+.titreArtlab1{
+	grid-area:artlabTitre1;
+  width: 360px;
+  height: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 0.6px;
+  text-align: center;
+  color: #1a2052;
+  z-index:20;
+  position:absolute;
+}
+
+.titreArtlab1::first-letter{
+	text-transform:uppercase;
+}
+
+.titreArtlab2{
+	grid-area:artlabTitre2;
+    width: 360px;
+  height: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 0.6px;
+  text-align: center;
+  color: #1a2052;
+}
+
+.titreArtlab2::first-letter{
+	text-transform:uppercase;
+}
+
+.loremIpsum12{
+	grid-area:li12;
+	width: 360px;
+  height: 240px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #1a2052;
+}
+
+.loremIpsum13{
+	grid-area:li13;
+	width: 360px;
+  height: 240px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #1a2052;
+}
+
+.petiteToile5{
+	grid-area:toile5;
+	width: 27.9px;
+  height: 30px;
+  object-fit: contain;
+  display:bloc;
+  margin:auto;
+}
+
+.plusNumArt5{
+	grid-area:numArtPlus5;
+  width: 550.1px;
+  height: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1a2052;
+  display:block;
+  margin:auto;
+}
+
+.toilePart5{
+	grid-area:toileArtlab;
+	width: 662.3px;
+  height: 530.3px;
+  object-fit: contain;
+  transform: rotate(192deg);
+  opacity: 0.8;
+  z-index:0;
+  transform: rotate(0deg);
+  position:absolute;
+  top:-20px;
+}
+
+
+/*--------------------------------------------------------------------------------FOOTER--------------------------------------------------------*/
+  
+ .footer{
+	 grid-area:pied;
+	 width: 1300px;
+  height: 285px;
+  background-color: #212121;
+  position:relative;
+ } 
+ 
+ .pied{
+	 display:grid;
+	 grid-template-columns:185px 360px 115px 265px 375px;
+	 grid-template-rows:39px 30px 2px 10px 21px 10px 2px 10px 21px 8px 2px 8px 30px 63px 16px 13px;
+	 grid-template-areas:/*39*/". . . . ."
+						 /*30*/"social contacter . lInfo tFooter"
+						 /*2*/". lineH1 . lineH4 . "
+						 /*10*/". . . . . "
+						 /*21*/". ville . lhebdo ."
+						 /*10*/". . . . ."
+						 /*2*/". lineH2 . . ."
+						/*10*/". . . . ."
+						 /*21*/". coord . form ."
+						 /*8*/". . . . ."
+						 /*2*/". lineH3 . . ."
+						 /*8*/". . . . ."
+						 /*30*/". equipe . . ."
+						 /*63*/". . . . ."
+						 /*16*/"mlegale mlegale mlegale mlegale mlegale"
+						 /*13*/". . . . .";
+	}
+ 
+ .fSocial{
+	 display:block;
+	 margin:auto;
+ }
+ 
+ .fbFooter{
+	 grid-area:social;
+	  width: 35px;
+  height: 35px;
+  object-fit: contain;
+  margin-top:70px;
+  margin-left:110px
+   }
+ 
+ .twFooter{
+	 grid-area:social
+	 width: 30px;
+  height: 30px;
+  object-fit: contain;
+  margin-top:9px;
+ margin-left:113px;
+ }
+ 
+ .instaFooter{
+	 grid-area:social;
+	 width: 30px;
+  height: 30px;
+  object-fit: contain;
+  margin-top:13px;
+  margin-left:113px;
+ }
+ 
+ .lineV{
+	 grid-area:social;
+	 width: 2px;
+  height: 154px;
+  background-color:#f5f5f5;
+ margin-left:165px;
+ }
+ 
+.nousContacter{
+	grid-area:contacter;
+	 width: 360px;
+  height: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  font-weight: Extra-Light;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 1.3px;
+  color: #ffffff;
+}
+
+.lineH1{
+	grid-area:lineH1;
+	width: 360px;
+  height: 1px;
+  background-color:#f5f5f5;
+}
+
+.paris{
+	grid-area:ville;
+	width: 75px;
+  height: 21px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12.8px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.64;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-left:20px;
+}
+
+.newYork{
+	grid-area:ville;
+	width: 75px;
+  height: 21px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12.8px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.64;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin-left:143px;
+}
+
+.shangai{
+	grid-area:ville;
+	 width: 75px;
+  height: 21px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12.8px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.64;
+  letter-spacing: normal;
+  text-align: right;
+  color: #ffffff;
+  margin-left:265px;
+}
+
+.lineH2{
+	grid-area:lineH2;
+	width: 360px;
+  height: 1px;
+  background-color:#f5f5f5;
+}
+  
+.tel{
+	grid-area:coord;
+	width: 170.2px;
+  height: 21px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12.8px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.64;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.mail{
+	grid-area:coord;
+	 width: 170.2px;
+  height: 21px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12.8px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.64;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-left:189.8px;
+}
+
+.lineH3{
+	grid-area:lineH3;
+	width: 360px;
+  height: 1px;
+  background-color:#f5f5f5;
+}
+
+.equipe{
+	grid-area:equipe;
+	width: 360px;
+  height: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 1.3px;
+  text-transform:uppercase;
+  color: #ffffff;
+}
+
+.lettreInfo{
+	grid-area:lInfo;
+	width: 265px;
+  height: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 1.3px;
+  color: #ffffff;
+}
+
+.lineH4{
+	grid-area:lineH4;
+	width: 360px;
+  height: 1px;
+  background-color:#f5f5f5;
+}
+
+.hebdo{
+	grid-area:lhebdo;
+	  width: 265px;
+  height: 42px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12.8px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.64;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-top:0px;
+}
+
+.case{
+	grid-area:form;
+width: 265px;
+  height: 30px;
+  border: solid 1px #ffffff;
+  margin-top:15.5px;
+  position:relative;
+  }
+
+.newsMail{
+	grid-area:form;
+	 width: 180px;
+  height: 18px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-left:10px;
+  vertical-align:middle;
+  }
+  
+.boutonSubmit{
+	grid-area:form;
+	width: 75px;
+  height: 30px;
+  background-color: #ffffff;
+  font-family: 'Source Sans Pro', sans-serif;
+  position:absolute;
+  right:0px;
+  top:0px;
+}
+
+.textSubmit{
+	grid-area:form;
+	width: 63.4px;
+  height: 18px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #212121;
+  margin-top:5.8px;
+  margin-left:6.5px;
+}
+
+.toileFooter{
+	grid-area:tFooter;
+	width: 150px;
+  height: 166px;
+  object-fit: contain;
+  margin-top:6px;
+  margin-left:125px;
+  }
+  
+.mLegale{
+	grid-area:mlegale;
+	width: 1120px;
+  height: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 11px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
